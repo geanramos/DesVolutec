@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DESVOLUTEC - A resposta à falsa evolução</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Ubuntu', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 650px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+    h1 span {
+      color: #d62828;
+    }
+    h1 span:nth-child(2) {
+      color: #fcbf49;
+    }
+    h1 span:nth-child(3) {
+      color: #003049;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.2em;
+      margin-top: 0.2em;
+      color: #003049;
+    }
+    .message {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .share {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .share a, .copy-btn {
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .whatsapp { background: #25d366; }
+    .telegram { background: #0088cc; }
+    .facebook { background: #3b5998; }
+    .x { background: #000000; }
+    .copy-btn {
+      background: #666;
+      cursor: pointer;
+    }
+    .qr {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .qr img {
+      width: 150px;
+      border: 5px solid white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><span>DES</span><span>VOLU</span><span>TEC</span></h1>
+    <h2>A resposta à falsa evolução</h2>
+
+    <div class="message">
+      <p>Você acredita que uma empresa chamada <strong>Evalutec Educação</strong> desdenha do uso da inteligência artificial e do profissionalismo de verdade? Então confere esse desabafo (com estilo):</p>
+      <audio controls>
+        <source src="audios/mensagem1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="message">
+      <p>Se compromisso é responsabilidade, a empresa deveria cuidar da própria organização e não deixar o candidato esperando várias semanas sem sequer uma mensagem de resposta automática.<br><br> Pois é: coisa mais simples que tem aqui, ó.</p>
+      <audio controls>
+        <source src="audios/mensagem2.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="message">
+      <p>Vá no Gmail, clique em “Ver todas as configurações”, vá em “Respostas automáticas”, ative, escreva sua mensagem, salve, e pronto!<br><br>Mas que falsa, evolução, hein?</p>
+      <audio controls>
+        <source src="audios/mensagem3.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="qr">
+      <p>Escaneie e compartilhe:</p>
+      <img src="qrcode.png" alt="QR Code para compartilhar">
+    </div>
+
+    <div class="share">
+      <a class="whatsapp" href="https://wa.me/?text=https://desvolutec.netlify.app" target="_blank">WhatsApp</a>
+      <a class="telegram" href="https://t.me/share/url?url=https://desvolutec.netlify.app" target="_blank">Telegram</a>
+      <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://desvolutec.netlify.app" target="_blank">Facebook</a>
+      <a class="x" href="https://twitter.com/intent/tweet?url=https://desvolutec.netlify.app" target="_blank">X</a>
+      <button class="copy-btn" onclick="navigator.clipboard.writeText('https://desvolutec.netlify.app')">Copiar Link</button>
+    </div>
+  </div>
+</body>
+</html>
