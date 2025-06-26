@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesVolutec - Deseducação & Contradição</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 650px;
+    }
+    header {
+      background-color: #fff;
+      border-bottom: 3px solid #fbbc05;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .logo span.des {
+      color: #666;
+    }
+    .logo span.volutec {
+      color: #ea4335;
+    }
+    .slogan {
+      font-size: 0.9rem;
+      color: #888;
+      font-style: italic;
+    }
+    nav {
+      background-color: #4285f4;
+      color: white;
+      padding: 10px 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      cursor: pointer;
+    }
+    main {
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #ea4335;
+    }
+    section.mensagens {
+      margin-top: 40px;
+    }
+    .mensagem {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .mensagem h2 {
+      margin-top: 0;
+      color: #4285f4;
+    }
+    .mensagem audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .mensagem img.qrcode {
+      display: block;
+      margin-top: 15px;
+      max-width: 150px;
+    }
+    @media (max-width: 768px) {
+      header, nav, main {
+        padding: 20px 15px;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <span class="des">Des</span><span class="volutec">Volutec</span>
+        <div class="slogan">Deseducação & Contradição</div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li>Início</li>
+        <li>Mensagens</li>
+        <li>Sobre</li>
+        <li>Contato</li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Bem-vindo à DesVolutec</h1>
+      <p>Aqui mostramos o que acontece quando a tecnologia é ignorada e o respeito profissional é deixado de lado. Esta é a página oficial do nosso protesto criativo contra a falsa evolução educacional.</p>
+
+      <section class="mensagens">
+        <h2>Mensagens Enviadas</h2>
+
+        <div class="mensagem">
+          <h2>Mensagem 1 - Resposta Inicial</h2>
+          <p>Mensagem enviada após o primeiro contato da empresa, respondendo com clareza e educação.</p>
+          <audio controls>
+            <source src="ttsmaker-file-2025-6-26-6-24-29.mp3" type="audio/mpeg">
+            Seu navegador não suporta o áudio.
+          </audio>
+          <img class="qrcode" src="QRCode_Fácil.png" alt="QR Code para Mensagem 1">
+        </div>
+
+        <div class="mensagem">
+          <h2>Mensagem 2 - Tutorial de Resposta Automática</h2>
+          <p>Explicação didática sobre como usar respostas automáticas no Gmail — educação gratuita que a empresa parece precisar.</p>
+          <audio controls>
+            <source src="ttsmaker-file-2025-6-26-6-26-35.mp3" type="audio/mpeg">
+            Seu navegador não suporta o áudio.
+          </audio>
+          <img class="qrcode" src="QRCode_Fácil.png" alt="QR Code para Mensagem 2">
+        </div>
+
+        <div class="mensagem">
+          <h2>Mensagem 3 - Encerramento com Elegância</h2>
+          <p>Fechando com classe e deixando claro quem realmente representa compromisso e profissionalismo.</p>
+          <audio controls>
+            <source src="ttsmaker-file-2025-6-26-6-27-49.mp3" type="audio/mpeg">
+            Seu navegador não suporta o áudio.
+          </audio>
+          <img class="qrcode" src="QRCode_Fácil.png" alt="QR Code para Mensagem 3">
+        </div>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
